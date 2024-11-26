@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 import { generateArithmeticCaptcha } from "@/app/utils/generateCaptcha";
 
-import 'react-phone-input-2/lib/style.css';
+
 import FormImg from "@/public/FormImg.webp"
 
 const DumyForm = ({ onClose }) => {
