@@ -2,20 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+.playfair_display{
+  font-family: var(--font-playfair_display);
+}
+.Bebas_Neue{
+  font-family: var(--font-Bebas_Neue);
+}
+.Domine{
+  font-family: var(--font-Domine);
+}
+.Montserrat{
+  font-family: var(--font-Montserrat);
+}
+.playfair_displays{
+  font-family: var(--font-playfair_displays);
+}
+.outfit_dispaly{
+  font-family: var(--font-outfit);
+
+}
+.outfit_dispalys{
+  font-family: var(--font-outfits);
+
+}
+.open_sans_display{
+  font-family: var(--font-open_sans);
+
+}
+.open_sans_displays{
+  font-family: var(--font-open_sanss);
+
 }
