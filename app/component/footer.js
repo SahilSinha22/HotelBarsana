@@ -20,9 +20,10 @@ const Footer = () => {
             </Link>
           </div>
           <p className="text-[#7b61ff]  ">Connect with us:</p>
-          <p className="text-[#9a9898] ">Call: +91 88 820 76 755</p>
-          <p className="text-[#9a9898] ">Email: contact@techlerate.com</p>
-          <p className="text-[#9a9898] w-auto lg:w-96">Office: Platina Heights, C24, C Block, Phase 2,Industrial Area, Sector 62, Noida, Uttar Pradesh 201309</p>
+          <p className="text-[#9a9898] ">Reception: +91 97 0814 7363</p>
+          <p className="text-[#9a9898] ">Call: +91 97 0274 9259</p>
+          <p className="text-[#9a9898] ">Email: contact@HotelBarsana.com</p>
+          <p className="text-[#9a9898] w-auto lg:w-96">Address: Cancer 1 No. Gate Bharatpur, Chitwan</p>
           <div className="flex mt-6 space-x-4 ">
             <Link href="#" onClick={(e) => e.preventDefault()}  aria-label="Instagram">
               <Image src={Insta} alt="Instagram Icon" className='rounded-full' width={40} height={2}/>

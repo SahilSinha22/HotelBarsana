@@ -123,13 +123,13 @@ const Navbar = () => {
               href="/About"
               className={`nav-link block  mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8 ${pathname== "/About"?"text-[#7B61FF]":"text-white hover:text-[#7B61FF]"}`}
             >
-              About
+             Find & Reserve
             </Link>
             <Link
               href="/Work"
               className={`nav-link block  mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8 ${pathname== "/Work"?"text-[#7B61FF]":"text-white hover:text-[#7B61FF]"}`}
             >
-              Work
+             Events
             </Link>
             <div className=" lg:inline-block  group"
                onMouseEnter={() => setIsOpenMenu(true)}
@@ -140,7 +140,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded={isOpen ? true : false}
               >
-                Services
+                Vacation
                 {isOpenMenu ? (
                   <FaChevronUp className="inline-flex ml-2" size={14} />
                 ) : (
@@ -202,7 +202,7 @@ const Navbar = () => {
         router.pathname ? 'text-[#7b61ff]' : 'text-white'
         }`}
       >
-        Technology
+        Adventure
         {isOpenMenuT ? (
                   <FaChevronUp className="inline-flex ml-2" size={14} />
                 ) : (
@@ -240,7 +240,7 @@ const Navbar = () => {
               href="/Career"
               className=" block nav-link text-white mt-4 lg:inline-block hover:text-[#7B61FF] lg:mt-0 text-white-200 mr-8"
             >
-              Career
+           About Hotel Barsana
             </Link>
           </div>
          
