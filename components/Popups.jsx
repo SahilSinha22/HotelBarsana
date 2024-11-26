@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 import { generateArithmeticCaptcha } from "@/app/utils/generateCaptcha";
-import PhoneInput from 'react-phone-input-2';
+
 import 'react-phone-input-2/lib/style.css';
 import FormImg from "@/public/FormImg.webp"
 
@@ -236,20 +236,7 @@ const DumyForm = ({ onClose }) => {
                                
                                 <div className=" ">
                                 <div className="relative text-lg flex w-full">
-                                    <PhoneInput
-                                        country={'in'}
-                                        value={user.Number}
-                                        onChange={value => setUser({ ...user, Number: value })}
-                                        inputProps={{
-                                            name: 'Number',
-                                            required: true,
-                                            autoFocus: false
-                                        }}
-                                        className="border-b-2 w-full text-lg dark:border-gray-600 border-gray-300 peer-placeholder-shown:text-blue-gray-500"
-                                        containerStyle={{ width: '100%' }}
-                                        inputStyle={{ width: '100%', border: 'none',fontSize:'18px' }}
-                                        buttonStyle={{ border: 'none', background: 'transparent',color: ' #6b7280' }}
-                                    />
+                                   
 
                                 </div>
                                 {errors.Number && <p className="text-red-600 text-xs mt-1">{errors.Number}</p>}
