@@ -313,7 +313,7 @@ const DumyForm = ({ onClose }) => {
 
                                
                                 <h2 className='text-[#000000] z-20 text-xs  lg:text-base xl:text-lg open_sans_display '>In Just <b> 10 min</b> You Will Get A Response</h2>
-                                <a href="https://api.whatsapp.com/send?phone=918882076755">   <Image src="/whatsapp.svg" className="" alt="" width={40} height={40} /> </a>
+                                <a href="https://api.whatsapp.com/send?phone=917014370078">   <Image src="/whatsapp.svg" className="" alt="" width={40} height={40} /> </a>
 
                                 </div>
                                 </div>
