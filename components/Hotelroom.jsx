@@ -19,11 +19,13 @@ const Hotelroom = () => {
     <div className='max-w-7xl flex flex-col justify-start m-auto my-20 '>
         <div className='mx-4'>
           <h1 className='text-2xl md:text-3xl xl:text-4xl playfair_displays font-bold '>
-            Showcase Your Journey with Us.
+          Relax in Luxury: Your Perfect Stay Awaits
           </h1>
           <p className='my-4 text-base md:text-lg lg:text-base xl:text-xl open_sans_display'>
-            "Share your favorite moments from your stay or travels with us! Whether it's a breathtaking view,
-            a delicious meal, or a joyful moment from your journey, we’d love to see and feature your memories. Upload your photos and be part of our story!"
+          "Discover ultimate comfort and elegance in our hotel rooms. Let your stay be a seamless
+           blend of luxury, relaxation, and modern amenities, tailored to meet your needs."
+
+
           </p>
         
         </div>
