@@ -13,7 +13,7 @@ const hotelroom = [
   ];
 const Hotelroom = () => {
   return (
-    <div>
+    <div className='pb-10'>
 
    
     <div className='max-w-7xl flex flex-col justify-start m-auto my-20 '>
@@ -28,7 +28,7 @@ const Hotelroom = () => {
         
         </div>
       </div>
-    <div className='grid grid-cols-3 gap-4 max-w-7xl m-auto'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl m-auto'>
 {hotelroom.map((room, index)=>(
 
 

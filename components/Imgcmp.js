@@ -59,7 +59,7 @@ const Imgcmp = () => {
           <div className="trackx  ">
             {logos.concat(logos).map((logo, index) => (
               <div key={index} className="logox rounded-2xl ">
-                <Image src={logo} alt={`Logo ${index % logos.length + 1}`} className='h-full w-full ' width={1000} height={1000} />
+                <Image src={logo} alt={`Logo ${index % logos.length + 1}`} className='h-full w-full rounded-2xl' width={1000} height={1000} />
               </div>
             ))}
           </div>
